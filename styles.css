@@ -409,6 +409,19 @@ h3 {
   margin-top: 38px;
 }
 
+.case-featured + .case-featured {
+  margin-top: 24px;
+}
+
+.case-label {
+  margin: 0 0 12px;
+  color: #8ee6d8;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .case-summary {
   padding: 30px;
   color: #ffffff;
@@ -419,9 +432,26 @@ h3 {
   border-radius: 8px;
 }
 
+.case-summary h2 {
+  margin-bottom: 22px;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
 .case-summary p {
   margin: 16px 0 0;
   color: #d8dee7;
+}
+
+.case-summary .case-label {
+  color: #8ee6d8;
+  margin-top: 0;
+}
+
+.nailflow-case .case-summary {
+  background:
+    linear-gradient(135deg, rgba(111, 29, 46, 0.42), transparent 44%),
+    linear-gradient(160deg, transparent 52%, rgba(198, 138, 45, 0.22)),
+    var(--ink);
 }
 
 .feature-list,
