@@ -5,241 +5,225 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfólio de desenvolvimento web para pequenos negócios, com sites, sistemas de pedidos e painéis administrativos."
+      content="Portfólio de Richard Alexandre, desenvolvedor web freelancer especializado em sites, sistemas e experiências digitais para negócios."
     />
-    <title>Richard Alexandre | Desenvolvedor Web Freelancer</title>
+    <title>Richard Alexandre | Portfólio</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
     <header class="site-header">
       <a class="brand" href="#inicio" aria-label="Voltar ao início">
-        <span class="brand-mark">R</span>
+        <span class="brand-mark">RA</span>
         <span>Richard Alexandre</span>
       </a>
 
       <nav class="nav" aria-label="Navegação principal">
-        <a href="#projeto">Projeto</a>
+        <a href="#projetos">Projetos</a>
         <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
         <a href="#contato">Contato</a>
       </nav>
     </header>
 
     <main>
       <section class="hero" id="inicio">
-        <div class="hero-copy">
+        <div class="hero-copy reveal">
           <p class="availability">Disponível para novos projetos</p>
-          <p class="eyebrow">Web design, sistemas e presença digital</p>
-          <h1>Experiências digitais elegantes para negócios que querem vender com mais clareza.</h1>
+          <p class="eyebrow">Web design, sistemas e experiências digitais</p>
+          <h1>Interfaces sofisticadas para negócios que querem parecer tão bons quanto entregam.</h1>
           <p class="hero-text">
-            Desenvolvo sites e sistemas sob medida com visual sofisticado, navegação objetiva
-            e recursos práticos para atendimento, pedidos e gestão.
+            Desenvolvo sites e sistemas sob medida com visual premium, navegação fluida,
+            páginas responsivas e ferramentas que ajudam pequenos negócios a vender,
+            atender e organizar melhor.
           </p>
 
-          <div class="hero-actions" aria-label="Ações principais">
-            <a class="button primary" href="#projeto">Ver projeto</a>
-            <a class="button secondary" href="#contato">Falar comigo</a>
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="#projetos">Explorar projetos</a>
+            <a class="button secondary magnetic" href="https://wa.me/5584994296093" target="_blank" rel="noreferrer">
+              Iniciar conversa
+            </a>
           </div>
 
-          <div class="proof-row" aria-label="Destaques do trabalho">
-            <span>Identidade digital</span>
-            <span>Experiência responsiva</span>
-            <span>Gestão comercial</span>
+          <div class="signal-row" aria-label="Destaques do trabalho">
+            <span>Sites de alto impacto</span>
+            <span>Sistemas com gestão</span>
+            <span>Experiência mobile</span>
           </div>
         </div>
 
-        <div class="product-preview" aria-label="Prévia visual do sistema Trufas Ponta Negra">
-          <div class="browser-bar">
-            <span></span>
-            <span></span>
-            <span></span>
+        <aside class="showcase-panel reveal" aria-label="Resumo visual dos projetos">
+          <div class="panel-top">
+            <span>Portfólio</span>
+            <strong>02 cases</strong>
           </div>
-          <div class="preview-hero">
-            <p>Trufas Ponta Negra</p>
-            <strong>Vitrine premium com pedidos online</strong>
-          </div>
-          <div class="preview-grid">
-            <div>
-              <span>Pedidos</span>
-              <strong>24</strong>
-            </div>
-            <div>
-              <span>Clientes</span>
-              <strong>68</strong>
-            </div>
-            <div>
-              <span>Delivery</span>
-              <strong>Ativo</strong>
+          <div class="luxury-preview" id="project-preview">
+            <p class="preview-kicker">Projeto em destaque</p>
+            <h2>Trufas Ponta Negra</h2>
+            <p>
+              Vitrine comercial com pedidos online, Pix manual, WhatsApp e painel
+              administrativo para operação do negócio.
+            </p>
+            <div class="preview-metrics">
+              <span><strong>Full</strong> stack</span>
+              <span><strong>Pedidos</strong> online</span>
+              <span><strong>Painel</strong> admin</span>
             </div>
           </div>
-          <div class="preview-list">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="preview-controls" aria-label="Selecionar projeto na prévia">
+            <button class="active" type="button" data-project="trufas">Trufas</button>
+            <button type="button" data-project="nailflow">NailFlow</button>
           </div>
-          <div class="floating-note">
-            <strong>Projeto completo</strong>
-            <span>Marca, venda e gestão em uma única experiência.</span>
-          </div>
-        </div>
+        </aside>
       </section>
 
-      <section class="section" id="projeto">
-        <div class="section-heading">
+      <section class="section projects-section" id="projetos">
+        <div class="section-heading reveal">
           <p class="eyebrow">Projetos em destaque</p>
-          <h2>Cases desenvolvidos</h2>
+          <h2>Dois produtos digitais com objetivos reais</h2>
           <p>
-            Soluções digitais completas, criadas para resolver fluxos reais de venda,
-            atendimento, agendamento e gestão.
+            Cada projeto foi pensado como solução de negócio: não apenas uma página bonita,
+            mas uma experiência com fluxo, gestão e utilidade.
           </p>
         </div>
 
-        <div class="case-layout case-featured">
-          <article class="case-summary">
-            <p class="case-label">Comércio local</p>
-            <h2>Trufas Ponta Negra</h2>
-            <h3>O que foi desenvolvido</h3>
-            <p>
-              A solução permite que clientes conheçam a marca, montem pedidos, escolham
-              retirada ou delivery, enviem comprovante pelo WhatsApp e acompanhem o status.
-              Para o administrador, o sistema reúne dashboard, pedidos, catálogo, clientes,
-              finanças e configurações de entrega.
-            </p>
+        <div class="project-grid">
+          <article class="project-card reveal" data-tilt>
+            <div class="project-art trufas-art">
+              <span>TPN</span>
+            </div>
+            <div class="project-content">
+              <p class="case-label">Comércio local</p>
+              <h3>Trufas Ponta Negra</h3>
+              <p>
+                Site institucional e sistema comercial para uma marca de trufas artesanais,
+                com pedidos online, retirada ou delivery, Pix manual, WhatsApp e painel do empresário.
+              </p>
+              <div class="feature-list">
+                <span>Landing page premium</span>
+                <span>Área do cliente</span>
+                <span>Carrinho e pedidos</span>
+                <span>Dashboard administrativo</span>
+              </div>
+            </div>
           </article>
 
-          <div class="feature-list" aria-label="Funcionalidades do projeto">
-            <div>
-              <strong>Landing page</strong>
-              <span>Apresentação refinada da marca com foco em confiança e conversão.</span>
+          <article class="project-card reveal" data-tilt>
+            <div class="project-art nailflow-art">
+              <span>NF</span>
             </div>
-            <div>
-              <strong>Área do cliente</strong>
-              <span>Cadastro, login, carrinho, pedidos e acompanhamento.</span>
+            <div class="project-content">
+              <p class="case-label">Beleza e agendamentos</p>
+              <h3>NailFlow</h3>
+              <p>
+                Plataforma full stack para clientes e profissionais de unhas, com vitrine pública,
+                catálogo de serviços, horários disponíveis, agendamentos e painel profissional.
+              </p>
+              <div class="feature-list">
+                <span>Vitrine profissional</span>
+                <span>Agenda online</span>
+                <span>Notificações</span>
+                <span>SQLite, LGPD e admin</span>
+              </div>
             </div>
-            <div>
-              <strong>Painel administrativo</strong>
-              <span>Controle de pedidos, produtos, clientes, delivery e finanças.</span>
-            </div>
-            <div>
-              <strong>Operação comercial</strong>
-              <span>Pix manual, WhatsApp, alertas, notificações e backups.</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="case-layout case-featured nailflow-case">
-          <article class="case-summary">
-            <p class="case-label">Beleza e agendamentos</p>
-            <h2>NailFlow</h2>
-            <h3>O que foi desenvolvido</h3>
-            <p>
-              Plataforma full stack para conectar clientes e profissionais de unhas. O sistema
-              permite que a cliente encontre vitrines, consulte serviços, escolha horários
-              disponíveis e acompanhe seus agendamentos. A profissional gerencia agenda,
-              catálogo, clientes, notificações e a vitrine pública do negócio.
-            </p>
           </article>
-
-          <div class="feature-list" aria-label="Funcionalidades do projeto NailFlow">
-            <div>
-              <strong>Vitrine profissional</strong>
-              <span>Perfil público com serviços, fotos, informações e link compartilhável.</span>
-            </div>
-            <div>
-              <strong>Agendamento online</strong>
-              <span>Escolha de profissional, serviço, data, horário e acompanhamento pela cliente.</span>
-            </div>
-            <div>
-              <strong>Painel da profissional</strong>
-              <span>Métricas, agenda por data, clientes, catálogo e atualização de status.</span>
-            </div>
-            <div>
-              <strong>Base para operação real</strong>
-              <span>SQLite, sessões HttpOnly, notificações, backup, LGPD, admin e testes.</span>
-            </div>
-          </div>
         </div>
 
-        <div class="tech-strip" aria-label="Tecnologias usadas">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Vite</span>
-          <span>Node.js</span>
-          <span>Express</span>
-          <span>SQLite</span>
-          <span>JWT</span>
-          <span>Google Auth</span>
-          <span>SEO</span>
+        <div class="tech-marquee reveal" aria-label="Tecnologias usadas">
+          <div>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Vite</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>SQLite</span>
+            <span>JWT</span>
+            <span>SEO</span>
+          </div>
         </div>
       </section>
 
       <section class="section services-section" id="servicos">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <p class="eyebrow">Serviços</p>
-          <h2>Soluções digitais com acabamento profissional</h2>
+          <h2>Criação digital com acabamento de marca</h2>
         </div>
 
         <div class="services-grid">
-          <article>
+          <article class="service-card reveal">
+            <span>01</span>
             <h3>Sites profissionais</h3>
-            <p>Sites responsivos para negócios locais, profissionais autônomos e marcas pequenas.</p>
+            <p>Sites responsivos para negócios locais, profissionais autônomos e marcas que precisam transmitir confiança.</p>
           </article>
-          <article>
+          <article class="service-card reveal">
+            <span>02</span>
             <h3>Sistemas de pedidos</h3>
-            <p>Fluxos de compra, carrinho, delivery, retirada e integração com WhatsApp.</p>
+            <p>Fluxos de compra, carrinho, delivery, retirada, WhatsApp e gestão simples para operação diária.</p>
           </article>
-          <article>
+          <article class="service-card reveal">
+            <span>03</span>
+            <h3>Agendamentos online</h3>
+            <p>Vitrines, serviços, horários disponíveis, acompanhamento e painel para profissionais.</p>
+          </article>
+          <article class="service-card reveal">
+            <span>04</span>
             <h3>Painéis administrativos</h3>
-            <p>Telas internas para organizar pedidos, clientes, produtos, entregas e números do negócio.</p>
-          </article>
-          <article>
-            <h3>Publicação e ajustes</h3>
-            <p>Preparação para hospedagem, páginas legais, SEO básico e melhorias em sites existentes.</p>
+            <p>Dashboards e telas internas para controlar clientes, pedidos, agenda, catálogo e indicadores.</p>
           </article>
         </div>
       </section>
 
-      <section class="section process-section" aria-labelledby="processo-title">
-        <div class="section-heading">
+      <section class="section process-section" id="processo">
+        <div class="section-heading reveal">
           <p class="eyebrow">Processo</p>
-          <h2 id="processo-title">Do briefing ao site publicado</h2>
+          <h2>Uma entrega clara, do briefing ao lançamento</h2>
         </div>
 
-        <div class="process-grid">
-          <article>
+        <div class="timeline">
+          <article class="timeline-item reveal">
             <span>01</span>
-            <h3>Entendimento</h3>
-            <p>Mapeio o tipo de negócio, objetivo do site, público e fluxo principal de atendimento.</p>
+            <h3>Estratégia</h3>
+            <p>Entendo o negócio, o público e o fluxo principal que o site ou sistema precisa resolver.</p>
           </article>
-          <article>
+          <article class="timeline-item reveal">
             <span>02</span>
-            <h3>Construção</h3>
-            <p>Desenvolvo as páginas, sistemas e integrações com foco em clareza e uso no dia a dia.</p>
+            <h3>Interface</h3>
+            <p>Crio uma experiência visual coerente, responsiva e com aparência profissional para divulgação.</p>
           </article>
-          <article>
+          <article class="timeline-item reveal">
             <span>03</span>
-            <h3>Entrega</h3>
-            <p>Deixo a versão final pronta para divulgar, com ajustes essenciais de publicação e SEO.</p>
+            <h3>Funcionalidade</h3>
+            <p>Desenvolvo páginas, interações, integrações, áreas logadas e painéis quando o projeto precisa.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>04</span>
+            <h3>Publicação</h3>
+            <p>Preparo a versão final para ir ao ar, com ajustes de responsividade, contato e SEO básico.</p>
           </article>
         </div>
       </section>
 
       <section class="contact-section" id="contato">
-        <div>
+        <div class="contact-card reveal">
           <p class="eyebrow">Contato</p>
-          <h2>Vamos tirar sua ideia do papel?</h2>
+          <h2>Vamos construir uma presença digital com cara de negócio grande?</h2>
           <p>
-            Me chame para criar um site, sistema de pedidos ou painel simples para o seu negócio.
+            Me chame para criar um site, sistema de pedidos, agenda online ou painel
+            administrativo para o seu negócio.
           </p>
-        </div>
-        <div class="contact-actions">
-          <a class="button primary" href="https://wa.me/5584994296093" target="_blank" rel="noreferrer">
-            WhatsApp
-          </a>
-          <a class="button secondary" href="mailto:richardalexandre98@icloud.com">E-mail</a>
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="https://wa.me/5584994296093" target="_blank" rel="noreferrer">
+              WhatsApp
+            </a>
+            <a class="button secondary magnetic" href="mailto:richardalexandre98@icloud.com">E-mail</a>
+          </div>
         </div>
       </section>
     </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>
