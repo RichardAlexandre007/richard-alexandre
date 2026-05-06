@@ -226,9 +226,6 @@ a {
   text-transform: uppercase;
 }
 
-h1,
-h2,
-h3,
 p {
   overflow-wrap: anywhere;
 }
@@ -237,14 +234,17 @@ h1,
 h2,
 h3 {
   margin: 0;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
   line-height: 1.02;
   letter-spacing: 0;
 }
 
 h1 {
-  max-width: 850px;
+  max-width: 720px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3.1rem, 6.3vw, 6.4rem);
+  font-size: clamp(3rem, 5.1vw, 5.35rem);
   font-weight: 700;
   text-wrap: balance;
 }
@@ -271,7 +271,7 @@ h3 {
 }
 
 .hero-text {
-  max-width: 680px;
+  max-width: 620px;
   margin: 28px 0 0;
   font-size: clamp(1.05rem, 2vw, 1.24rem);
 }
@@ -348,6 +348,7 @@ h3 {
 
 .showcase-panel {
   position: relative;
+  align-self: center;
   min-height: 570px;
   padding: 18px;
   background:

@@ -3,7 +3,7 @@ const projects = {
     title: "Trufas Ponta Negra",
     text:
       "Vitrine comercial com pedidos online, Pix manual, WhatsApp e painel administrativo para operação do negócio.",
-    metrics: ["Full stack", "Pedidos online", "Painel admin"],
+    metrics: ["Full stack", "Pedidos online", "Painel de gestão"],
     theme:
       "linear-gradient(180deg, rgba(7, 8, 9, 0.05), rgba(7, 8, 9, 0.82)), radial-gradient(circle at 22% 22%, rgba(215, 166, 75, 0.86) 0 12%, transparent 13%), radial-gradient(circle at 76% 24%, rgba(255, 255, 255, 0.16), transparent 18%), linear-gradient(135deg, #21140a, #5f1f31 45%, #0b423f)"
   },
@@ -11,7 +11,7 @@ const projects = {
     title: "NailFlow",
     text:
       "Plataforma de agendamento para clientes e profissionais de unhas, com vitrine pública, serviços, agenda e painel profissional.",
-    metrics: ["Agenda online", "Vitrine pública", "SQLite e admin"],
+    metrics: ["Agenda online", "Vitrine pública", "SQLite e painel admin"],
     theme:
       "linear-gradient(180deg, rgba(7, 8, 9, 0.05), rgba(7, 8, 9, 0.82)), radial-gradient(circle at 72% 20%, rgba(244, 223, 171, 0.72) 0 10%, transparent 11%), radial-gradient(circle at 24% 72%, rgba(61, 214, 177, 0.22), transparent 20%), linear-gradient(135deg, #241125, #7c263d 45%, #422009)"
   }
