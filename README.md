@@ -1,14 +1,15 @@
-# Richard Alexandre Portfolio
+# Richard Alexandre | Portfólio
 
-Portfolio profissional de desenvolvimento web freelancer.
+Portfólio profissional de desenvolvimento web freelancer.
 
-## Publicacao no GitHub Pages
+Site publicado:
+https://richardalexandre007.github.io/richard-alexandre/
 
-Este projeto e um site estatico. Para publicar:
+## Projetos em destaque
 
-1. Crie um repositorio publico no GitHub.
-2. Envie `index.html` e `styles.css` para a raiz do repositorio.
-3. Abra `Settings > Pages`.
-4. Em `Build and deployment`, selecione `Deploy from a branch`.
-5. Escolha a branch `main` e a pasta `/root`.
-6. Salve e aguarde o link do GitHub Pages.
+- Trufas Ponta Negra
+- NailFlow
+
+## Tecnologias
+
+HTML, CSS, JavaScript, React, Vite, Node.js, Express, SQLite, JWT e SEO.
